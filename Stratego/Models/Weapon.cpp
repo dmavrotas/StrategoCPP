@@ -4,12 +4,14 @@ class Weapon {
         int wp;
         int hitmulti;
         int weight;
+        int level;
     public:
-        Weapon(int hpi, int wpi, int hitmultii, weighti) {
+        Weapon(int hpi, int wpi, int hitmultii, weighti, leveli) {
             hp = hpi;
             wp = xpi;
             hitmulti = hitmultii;
-            weight = weighti
+            weight = weighti;
+            level = leveli;
         }
         ~Weapon();
         int GetWP() { return wp; }
@@ -27,6 +29,10 @@ class Weapon {
         int GetWeight() { return weight; }
         void SetWeight(int weighti) {
             weight = weighti;
+        }
+        int GetLevel() { return level; }
+        void SetLevel(int leveli) {
+            level = leveli;
         }
         virtual void Hit();
         virtual void Wear();
