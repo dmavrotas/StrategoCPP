@@ -5,11 +5,11 @@ class Weapon {
         int hitmulti;
         int weight;
     public:
-        Weapon(int hpi, int wpi, int hitmultii, weighti) {
+        Weapon(int hpi, int wpi, int hitmultii, int weighti) {
             hp = hpi;
-            wp = xpi;
+            wp = wpi;
             hitmulti = hitmultii;
-            weight = weighti
+            weight = weighti;
         }
         ~Weapon();
         int GetWP() { return wp; }

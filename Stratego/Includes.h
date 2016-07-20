@@ -1,0 +1,5 @@
+#include "Models/Weapon.h"
+#include "Models/Flag.h"
+#include "Models/Person.h"
+#include "Models/Tile.h"
+#include "Models/Battlefield.h"
