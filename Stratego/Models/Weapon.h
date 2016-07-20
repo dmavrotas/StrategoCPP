@@ -4,12 +4,21 @@ class Weapon {
         int wp;
         int hitmulti;
         int weight;
+        int level;
     public:
+<<<<<<< HEAD:Stratego/Models/Weapon.h
         Weapon(int hpi, int wpi, int hitmultii, int weighti) {
+=======
+        Weapon(int hpi, int wpi, int hitmultii, weighti, leveli) {
+>>>>>>> origin/master:Stratego/Models/Weapon.cpp
             hp = hpi;
             wp = wpi;
             hitmulti = hitmultii;
             weight = weighti;
+<<<<<<< HEAD:Stratego/Models/Weapon.h
+=======
+            level = leveli;
+>>>>>>> origin/master:Stratego/Models/Weapon.cpp
         }
         ~Weapon();
         int GetWP() { return wp; }
@@ -27,6 +36,10 @@ class Weapon {
         int GetWeight() { return weight; }
         void SetWeight(int weighti) {
             weight = weighti;
+        }
+        int GetLevel() { return level; }
+        void SetLevel(int leveli) {
+            level = leveli;
         }
         virtual void Hit();
         virtual void Wear();
