@@ -6,19 +6,12 @@ class Weapon {
         int weight;
         int level;
     public:
-<<<<<<< HEAD:Stratego/Models/Weapon.h
-        Weapon(int hpi, int wpi, int hitmultii, int weighti) {
-=======
-        Weapon(int hpi, int wpi, int hitmultii, weighti, leveli) {
->>>>>>> origin/master:Stratego/Models/Weapon.cpp
+        Weapon(int hpi, int wpi, int hitmultii, int weighti, int leveli) {
             hp = hpi;
             wp = wpi;
             hitmulti = hitmultii;
             weight = weighti;
-<<<<<<< HEAD:Stratego/Models/Weapon.h
-=======
             level = leveli;
->>>>>>> origin/master:Stratego/Models/Weapon.cpp
         }
         ~Weapon();
         int GetWP() { return wp; }
