@@ -1,3 +1,6 @@
+#include "Models/Weapon.h"
+#include "Models/Person.h"
+
 class Soldier : public Person {   
     private:
         int accuracy;

@@ -1,3 +1,5 @@
+#include "Models/Weapon.h"
+
 class Horse : public Weapon{
     private:
     public:

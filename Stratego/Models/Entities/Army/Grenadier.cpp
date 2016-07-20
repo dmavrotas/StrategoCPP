@@ -1,3 +1,5 @@
+#include "Soldier.h"
+
 class Grenadier : public Soldier {   
     private:
     public:  

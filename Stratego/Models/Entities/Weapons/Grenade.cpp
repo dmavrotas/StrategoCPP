@@ -1,3 +1,5 @@
+#include "Models/Weapon.h"
+
 class Grenade : public Weapon{
     private:
     public:
